@@ -1,5 +1,4 @@
 from fastapi import FastAPI, Query, HTTPException
-from pydantic import BaseModel
 app = FastAPI() # Запуск: uvicorn task_3_2.main:app --reload
 
 sample_product_1 = {
